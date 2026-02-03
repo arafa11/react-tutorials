@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.23",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/lodash": "^4.17.23",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
