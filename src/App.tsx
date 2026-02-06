@@ -1,9 +1,11 @@
-import CustomHooks from './pages/CustomHooks'
+// import CustomHooks from './pages/CustomHooks'
+import TicTacToe from './pages/TicTacToe'
 
 const App = () => {
   return (
     <>
-      <CustomHooks />
+      {/* <CustomHooks /> */}
+      <TicTacToe />
     </>
   )
 }
