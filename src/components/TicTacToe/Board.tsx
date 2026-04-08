@@ -1,6 +1,8 @@
 import Square from './Square'
 
 export default function Board({ xIsNext, squares, onPlay }) {
+  // 'use no memo' // Skip compilation for this component
+  // 'use memo' // Opt this component into compilation
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
       return
